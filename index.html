@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Tours</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+        <!-- Hepta on the left -->
+        <a class="navbar-brand" href="#">Hepta</a>
+        <!-- Hamburger Button on the right -->
+        <button class="menu-button btn" id="menuButton">☰</button>
+    </div>
+</nav>
+
+<!-- Fullscreen Menu -->
+<div class="menu-overlay" id="menu">
+  <span class="menu-close" id="menuClose">×</span>
+  <a href="index.html">Home</a>
+  <a href="hotels.html">Hotels</a>
+  <a href="about-us.html">About Us</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="news.html">News</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+
+<!-- Hero Section -->
+<div class="hero">
+    <div class="hero-content">
+        <h1>Travel & Tours</h1>
+        <p>A free template by Colorlib. Download and share!</p>
+        <a href="#" class="btn btn-custom">VISIT COLORLIB</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row content-section">
+        <!-- Image Section -->
+        <div class="col-lg-6 content-image" data-aos="fade-up">
+            <img src="assets/img_1_long.jpg" alt="Mountain View">
+        </div>
+
+        <!-- Text Section -->
+        <div class="col-lg-6 content-text" data-aos="fade-up" data-aos-delay="300">
+            <h2>Welcome To Our Website</h2>
+            <p>
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+                the Semantics, a large language ocean.
+            </p>
+            <p>
+                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+            <a href="#" class="video-btn">
+                <i class="bi bi-play-circle"></i> WATCH THE VIDEO
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Experience Section -->
+<section class="experience-section" data-aos="fade-up">
+    <div class="container">
+        <h2>Experience Once In Your Life Time</h2>
+        <p>
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,<br>
+            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the <br>
+            Semantics, a large language ocean.
+        </p>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center mb-4" data-aos="fade-up">
+                <img src="assets/001-breakfast.svg" alt="Good Foods" class="service-icon">
+                <h3>Good Foods</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/002-planet-earth.svg" alt="Travel Anywhere" class="service-icon">
+                <h3>Travel Anywhere</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/003-airplane.svg" alt="Airplane" class="service-icon">
+                <h3>Airplane</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4" data-aos="fade-up">
+                <img src="assets/004-beach.svg" alt="Beach Resort" class="service-icon">
+                <h3>Beach Resort</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/005-mountains.svg" alt="Mountain Climbing" class="service-icon">
+                <h3>Mountain Climbing</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/006-hot-air-balloon.svg" alt="Hot Air Balloon" class="service-icon">
+                <h3>Hot Air Balloon</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5 text-center bg-light">
+    <div class="container">
+        <h2 class="fw-bold display-4">International Tour <br> Management.</h2>
+        <p class="lead text-muted">
+            Far far away, behind the word mountains, far from the countries <br> Vokalia and Consonantia, 
+            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of <br> 
+            the Semantics, a large language ocean.
+        </p>
+    </div>
+</section>
+<section class="custom-bg">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+        </div>
+
+        <!-- Carousel Images -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/slider-1.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/slider-2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/slider-3.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/slider-4.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/slider-5.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/slider-6.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</section>
+
+<section class="blog-section">
+    <div class="container">
+        <!-- Centered Title and Description -->
+       <center> <div class="fade-in">
+            <h2 class="section-title">Recent Blog Post</h2>
+            <p class="section-description">
+                Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia,<br> there live the blind texts. Separated they live in Bookmarksgrove
+                right at the coast of <br> the Semantics, a large language ocean.
+            </p>
+        </div></center>
+
+        <!-- Blog Cards -->
+        <div class="row">
+            <!-- Blog Card 1 -->
+            <div class="col-md-4">
+                <div class="blog-card fade-in">
+                    <img src="assets/slider-6.jpg" alt="Blog 1">
+                    <div class="blog-content">
+                        <p class="blog-date">FEBRUARY 26, 2018</p>
+                        <h2 class="blog-title">45 Best Places To Unwind</h2>
+                        <p class="blog-description">
+                            Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="col-md-4">
+                <div class="blog-card fade-in">
+                    <img src="assets/img_2.jpg" alt="Blog 2">
+                    <div class="blog-content">
+                        <p class="blog-date">FEBRUARY 26, 2018</p>
+                        <h2 class="blog-title">45 Best Places To Unwind</h2>
+                        <p class="blog-description">
+                            Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="col-md-4">
+                <div class="blog-card fade-in">
+                    <img src="assets/img_3.jpg" alt="Blog 3">
+                    <div class="blog-content">
+                        <p class="blog-date">FEBRUARY 26, 2018</p>
+                        <h2 class="blog-title">45 Best Places To Unwind</h2>
+                        <p class="blog-description">
+                            Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <section class="section testimonial-section bg-light-2">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-md-8">
+          <h2 class="heading aos-init" data-aos="fade-up">Happy Customers</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 aos-init" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial">
+            <div class="author-image mb-3">
+              <img src="assets/person_1.jpg" alt="Image placeholder" class="rounded-circle">
+            </div>
+            <blockquote>
+
+              <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+            </blockquote>
+            <p><em>— Clare Gupta</em></p>
+            
+          </div>
+        </div>
+        <!-- END col -->
+        <div class="col-md-4 aos-init" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial">
+            <div class="author-image mb-3">
+              <img src="assets/person_2.jpg" alt="Image placeholder" class="rounded-circle">
+            </div>
+            <blockquote>
+              <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.rdquo;</p>
+            </blockquote>
+            <p><em>— Rogie Slater</em></p>
+          </div>
+        </div>
+        <!-- END col -->
+
+        <div class="col-md-4 aos-init" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial">
+            <div class="author-image mb-3">
+              <img src="assets/person_3.jpg" alt="Image placeholder" class="rounded-circle">
+            </div>
+            <blockquote>
+
+              <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+            </blockquote>
+            <p><em>— John Doe</em></p>
+          </div>
+        </div>
+        <!-- END col -->
+      </div>
+    </div>
+  </section>
+  <section class="section visit-section">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-md-8 ">
+          <h2 class="heading aos-init" data-aos="fade-up">Top Destination</h2>
+          <p class="lead aos-init" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias. Sed.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 visit mb-3 aos-init" data-aos="fade-right">
+          <a href=""><img src="assets/img_1.jpg" alt="Image placeholder" class="img-fluid"> </a>
+          <h3>Food &amp; Wines</h3>
+          <div class="reviews-star float-left">
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star-half"></span>
+            <span class="ion-android-star-outline"></span>
+          </div>
+          <span class="reviews-count float-right">
+            3,239 reviews
+          </span>
+        </div>
+        <div class="col-lg-3 col-md-6 visit mb-3 aos-init" data-aos="fade-right" data-aos-delay="100">
+          <img src="assets/img_2.jpg" alt="Image placeholder" class="img-fluid"> </a>
+          <h3>Resort &amp; Spa</h3>
+          <div class="reviews-star float-left">
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star-half"></span>
+            <span class="ion-android-star-outline"></span>
+          </div>
+          <span class="reviews-count float-right">
+            4,921 reviews
+          </span>
+        </div>
+        <div class="col-lg-3 col-md-6 visit mb-3 aos-init" data-aos="fade-right" data-aos-delay="200">
+          <img src="assets/img_4.jpg" alt="Image placeholder" class="img-fluid"> </a>
+          <h3>Hotel Rooms</a></h3>
+          <div class="reviews-star float-left">
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star-outline"></span>
+          </div>
+          <span class="reviews-count float-right">
+            2,112 reviews
+          </span>
+        </div>
+        <div class="col-lg-3 col-md-6 visit mb-3 aos-init" data-aos="fade-right" data-aos-delay="300">
+          <img src="assets/img_5.jpg" alt="Image placeholder" class="img-fluid"> </a>
+          <h3>Mountain Climbing</h3>
+          <div class="reviews-star float-left">
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star"></span>
+            <span class="ion-android-star-outline"></span>
+          </div>
+          <span class="reviews-count float-right">
+            6,421 reviews
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="section footer-section bg-dark " style="color: wheat;">
+    <br><br><br>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-3 mb-5">
+          <h3>Quick Link</h3>
+          <ul class="list-unstyled link">
+            <li>About Us</li>
+            <li>Terms &amp; Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Help</li>
+           <li>Rooms</li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3>Support</h3>
+          <ul class="list-unstyled link">
+            <li>Our Location</li>
+            <li>The Hosts</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Restaurant</li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5 pr-md-5 contact-info">
+          <h3>Contact Info</h3>
+          <p><span class="d-block">Address:</span> <span> 98 West 21th Street, Suite 721 New York NY 10016</span></p>
+          <p><span class="d-block">Phone:</span> <span> (+1) 435 3533</span></p>
+          <p><span class="d-block">Email:</span> <span> info@yourdomain.com</span></p>
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3>Subscribe</h3>
+          <p>Sign up for our newsletter</p>
+          <formclass="footer-newsletter">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your email...">
+              <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row bordertop text-center pt-5">
+        <p class="col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright ©
+              <script type="text/javascript" async="" src="./Hepta — Free Website Template by Colorlib_files/analytics.js"></script><script>
+                document.write(new Date().getFullYear());
+              </script>2025 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          
+        <p class="col-md-12 social">
+          <span class="fa fa-facebook"></span></a>
+          <span class="fa fa-twitter"></span></a>
+          <span class="fa fa-instagram"></span></a>
+          <span class="fa fa-linkedin"></span></a>
+          <span class="fa fa-youtube"></span></a>
+          
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+
+
+<!-- Bootstrap & AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        once: true
+    });
+</script>
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+        var menu = document.getElementById("menu");
+        var menuButton = document.getElementById("menuButton");
+        var menuClose = document.getElementById("menuClose");
+
+        function toggleMenu() {
+            menu.classList.toggle("active");
+        }
+
+        // Attach event listeners
+        menuButton.addEventListener("click", toggleMenu);
+        menuClose.addEventListener("click", toggleMenu);
+    });
+</script>
+
+</body>
+</html>
